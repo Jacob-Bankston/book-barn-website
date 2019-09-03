@@ -25,12 +25,10 @@ class MainContent extends Component {
 
   render() {
     return (
-      <div>
+      <div className="booksContainer">
         <Jumbotron fluid>
           <Container fluid>
-            <div>
-              <BookList books={this.state.books} />
-            </div>
+            <BookList books={this.state.books} />
           </Container>
         </Jumbotron>
       </div>
